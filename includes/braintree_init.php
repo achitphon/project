@@ -17,6 +17,5 @@ $gateway = new Braintree\Gateway([
     'publicKey' => getenv('BT_PUBLIC_KEY'),
     'privateKey' => getenv('BT_PRIVATE_KEY')
 ]);
-
 $baseUrl = stripslashes(dirname($_SERVER['SCRIPT_NAME']));
 $baseUrl = $baseUrl == '/' ? $baseUrl : $baseUrl . '/';
