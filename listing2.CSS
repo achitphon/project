@@ -34,10 +34,10 @@ a:active {
   background-color: #fff;
 }
 .title > h1 {                                    
-    color: #333;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin: 0.2em 0;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    font-size: 3rem !important;
+    margin: 0.2em 0 !important;
   }
   
   .slogan {                                        
